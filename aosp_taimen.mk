@@ -37,7 +37,7 @@ ifeq ($(WITH_GMS),true)
 endif
 
 PRODUCT_MANUFACTURER := Google
-PRODUCT_BRAND := Android
+PRODUCT_BRAND := Google
 PRODUCT_NAME := aosp_taimen
 PRODUCT_DEVICE := taimen
 PRODUCT_MODEL := AOSP on taimen
