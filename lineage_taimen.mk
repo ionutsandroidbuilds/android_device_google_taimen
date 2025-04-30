@@ -12,6 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit device specific stuff.
 $(call inherit-product, device/google/taimen/device.mk)
 
+# Matrixx
+ MATRIXX_BUILD_TYPE := Official
+ MATRIXX_CHIPSET := MSM8998
+ MATRIXX_BATTERY := 2700mAh
+ MATRIXX_DISPLAY := 1080x1920
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := taimen
