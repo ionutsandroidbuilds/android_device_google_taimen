@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "crdroidandroid/android_device_google_taimen",
+    "target_path": "device/google/taimen"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_google_taimen",
+    "target_path": "vendor/google/taimen",
+    "remote": "crdroid-gitlab",
+    "branch": "15.0"
+  },
+  {
+    "repository": "crdroidandroid/android_device_google_wahoo",
+    "target_path": "device/google/wahoo"
+  }
+]
